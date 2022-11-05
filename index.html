@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,23 +21,41 @@
     />
   </head>
   <body class="main-content">
+    <!-- navbar -->
+     <nav class="navbar">
+      <div class="name">
+        <h4><span>Pradip Kafle</span></h4>
+      </div>
+      <ul class="list">
+        <li class="list-item"><a href="#home">Home</a></li>
+        <li class="list-item">
+          <a href="#projects">Projects</a>
+        </li>
+        <li class="list-item">
+          <a href="#contact">Contact</a>
+        </li>
+        <li class="list-item">
+          <a target="_blank" href="https://iampradip.hashnode.dev/">Blogs</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- header -->
     <header class="section sec-1 header active" id="home">
       <div class="header-content">
         <div class="header-left">
           <div class="image">
-            <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80" alt="">
+            <img src="./images/profile.jpeg" alt="profile">
 
           </div>
           
 
         </div>
         <div class="header-right">
-          <h1>Hi 👋, I'm <span class="name"> Pradip Kafle</span> A Web developer</h1>
-          <p>I'm an Energetic and passionate Web Developer, I love to create
+          <h1 >Hi 👋, I'm <span class="name"> Pradip Kafle</span> A Web developer</h1>
+          <p>I'm an Energetic and passionate Web Developer,I love to create
             beautiful and functional websites. Currently, I'm looking for
             opportunities to utilize and grow my technical abilities as a Full-stack web
-            developer (<span style="color: skyblue";re">Frontend || Backend developer</span>
-            ).</p>
+            developer (<span style="color: skyblue">Frontend || Backend developer</span>)</p>
 
             <!-- typewriter effect -->
              <div class="typing-container">
@@ -55,7 +73,11 @@
     
     </header>
     <main>
-      <section class="section sec-2 portfolio" id="portfolio"></section>
+      <section class="section sec-2 portfolio" id="portfolio">
+        <div class="main-title">
+          <h2>My <span>Portfolio</span></h2>
+        </div>
+      </section>
       <section class="section sec-3 blogs" id="blogs"></section>
       <section class="section sec-4 contact" id="contact"></section>
     </main>
